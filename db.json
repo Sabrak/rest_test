@@ -27,17 +27,13 @@
 		},
 		{
 			"title" : "UP TO SPEED",
-			"hidden" : false,
+			"hidden" : true,
 			"id" : 9
 		},
 		{
 			"title" : "PREVIEW SHOW",
 			"hidden" : false,
 			"id" : 10
-		},
-		{
-			"title" : "NOTIFICATIONS",
-			"id" : 11
 		},
 		{
 			"title" : "TRACKS, TICKETS AND HOTELS",
@@ -50,6 +46,10 @@
 		{
 			"title" : "MY ACCOUNT",
 			"id" : 14
+		},
+		{
+			"title" : "NOTIFICATIONS",
+			"id" : 11
 		},
 		{
 			"title" : "ABOUT",
