@@ -1,126 +1,31 @@
 {
-  "posts": {
-      "response": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ]},
-  "menu": {
-	"phone": [
-		{
-			"title" : "BUY PREMIUM",
-			"id" : 1
-		},
-		{
-			"title" : "ABOUT NASCAR",
-			"id" : 15
-		},
-		{
-			"title" : "DRIVERS",
-			"id" : 7
-		},
-		{
-			"title" : "PLAYOFF STANDINGS",
-			"hidden" : false,
-			"id" : 5
-		},
-		{
-			"title" : "CAMRY ON TRACK",
-			"hidden" : false,
-			"id" : 8
-		},
-		{
-			"title" : "UP TO SPEED",
-			"hidden" : true,
-			"id" : 9
-		},
-		{
-			"title" : "PREVIEW SHOW",
-			"hidden" : false,
-			"id" : 10
-		},
-		{
-			"title" : "TRACKS, TICKETS AND HOTELS",
-			"id" : 12
-		},
-		{
-			"title" : "SHOP",
-			"id" : 13
-		},
-		{
-			"title" : "MY ACCOUNT",
-			"id" : 14
-		},
-		{
-			"title" : "NOTIFICATIONS",
-			"id" : 11
-		}
-	],
-	"tablet" : [
-		{
-			"title" : "BUY PREMIUM",
-			"id" : 1
-		},
-		{
-			"title" : "TABLET-HOME",
-			"id" : 2
-		},
-		{
-			"title" : "SCHEDULE",
-			"id" : 3
-		},
-		{
-			"title" : "STANDINGS",
-			"id" : 4
-		},
-		{
-			"title" : "PLAYOFF STANDINGS",
-			"hidden" : false,
-			"id" : 5
-		},
-		{
-			"title" : "FANTASY",
-			"id" : 6
-		},
-		{
-			"title" : "DRIVERS",
-			"id" : 7
-		},
-		{
-			"title" : "CAMRY ON TRACK",
-			"hidden" : false,
-			"id" : 8
-		},
-		{
-			"title" : "UP TO SPEED",
-			"hidden" : false,
-			"id" : 9
-		},
-		{
-			"title" : "PREVIEW SHOW",
-			"hidden" : false,
-			"id" : 10
-		},
-		{
-			"title" : "NOTIFICATIONS",
-			"id" : 11
-		},
-		{
-			"title" : "TRACKS, TICKETS AND HOTELS",
-			"id" : 12
-		},
-		{
-			"title" : "SHOP",
-			"id" : 13
-		},
-		{
-			"title" : "MY ACCOUNT",
-			"id" : 14
-		},
-		{
-			"title" : "ABOUT",
-			"id" : 15
-		}
-	]
-}
+  "alerts-menu": [
+    {
+      "News": {
+        "tag": "breaking-news",
+        "omniture_tag": "breaking-news",
+        "default_is_on": true,
+        "sprint_is_on": true,
+        "description": "Breaking news alerts as they alerts and follow stories as they develop",
+        "session_m_tag": "alertsBreakingNews"
+      }
+    },
+    {
+      "Live Event Updates": {
+        "tag": "Live-Event-Updates",
+        "omniture_tag": "Live-Event-Updates",
+        "default_is_on": false,
+        "type": 1,
+        "description": "Receive periodic Race updates for each NASCAR Series including Tune-In, Leaderboard updates, and Results"
+      }
+    },
+    {
+      "Fantasy Reminders": {
+        "tag": "special-offers-from-partners",
+        "omniture_tag": "special-offers-from-partners",
+        "default_is_on": false,
+        "description": "Receive periodic Partner Offers from NASCAR"
+      }
+    }
+  ]
 }
