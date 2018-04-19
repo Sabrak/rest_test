@@ -18,7 +18,7 @@
             
             var timeout = 5000;
             
-            var marketTimeout = 1000;
+            var marketTimeout = 2000;
             
             var changeLocation = true;
             
