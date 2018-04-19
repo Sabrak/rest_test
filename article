@@ -1,0 +1,160 @@
+<html>
+    
+    <!-- App redirect code -->
+    
+    <head>
+        
+        <!--<meta http-equiv="refresh" content="10;url=http://mobile.vzw.com/indycar"/>-->
+        
+        <script type="text/javascript">
+            
+            var deepLinkBase = "indycar://indy.vzw.com";
+            
+            var noAppURL = "http://mobile.vzw.com/indycar";
+            
+            var marketURL = "http://play.google.com/store/apps/details?id=com.vzw.indycar";
+            
+            var itunesURL = "itms-apps://itunes.apple.com/app/id606905722";
+            
+            var timeout = 5000;
+            
+            var marketTimeout = 1000;
+            
+            var changeLocation = true;
+            
+            
+            
+            document.onfocusin = function() {changeLocation = true};
+            
+            document.onfocusout = function() {changeLocation = false};
+            
+            
+            
+            
+            
+            function launchAndroidApp(deepLink) {
+                
+                
+                
+                window.onerror=function() {
+                    
+                    alert('Scheme registration not detected');
+                    
+                    window.location = marketURL;
+                    
+                }
+                
+                timer = setTimeout(function() {
+                                   
+                                   if (changeLocation) {
+                                   
+                                    window.location = marketURL;
+                                   
+                                   }
+                                   
+                                   },marketTimeout);
+                                   
+                                   window.location = deepLink;
+                                   
+                                   // causes popup blocked in browser
+                                   // var win = window.open(deepLink, '_blank');
+                                   // win.focus();
+                                   
+                                   // doesn't work
+                                   //document.write('<iframe name="app" id="app" height="0" width="0" src="' + deepLink + '"></iframe>');
+                                   
+            }
+        
+        
+        
+        
+        
+        function launchiOSApp(deepLink) {
+            
+            window.location.replace(deepLink);
+            
+            !window.document.webkitHidden && setTimeout(function () {
+                                                        
+                                                        setTimeout(function () {
+                                                                   
+                                                                   window.location = itunesURL;
+                                                                   
+                                                                   }, 100);
+                                                        
+                                                        }, 600);
+                                                        
+                                                        
+                                                        
+        }
+        
+        
+        
+        function timeoutAppLaunch() {
+            
+            // hang around for 5 seconds before launching
+            
+            setTimeout("launchApp()",timeout);
+            
+        }
+        
+        
+        
+        function launchApp() {
+            
+            // Derive c parameter (e.g. c=12345) from header and pass to subfunction
+            
+            //e.g. c=12345;
+            
+            
+            
+            var url = window.location.href;
+            
+            var index = url.lastIndexOf('/');
+            
+            if (index >= 0 && index < url.length) {
+                
+                var deepLink = deepLinkBase + url.substring(index);
+                
+                
+                
+                if ( (navigator.userAgent.match(/iPhone;/i)) || (navigator.userAgent.match(/iPad;/i)) ) {
+                    
+                    launchiOSApp(deepLink);
+                    
+                    return;
+                    
+                } else if ( (navigator.userAgent.match(/Android/i)) || (navigator.userAgent.match(/Droid/i)) ) {
+                    
+                    //alert('detected Android of some kind');
+                    
+                    launchAndroidApp(deepLink);
+                    
+                    return;
+                    
+                }
+                
+            }
+            
+            
+            
+            
+            
+            //alert('could not detect specific mobile devices. Punting to Verizon.');
+            
+            window.location = noAppURL;
+            
+        }
+        
+            </script>
+        
+    </head>
+    
+    
+    
+    <body onload="launchApp()" style="background-color: #000000;">
+        
+        <noscript>Javascript must be enabled to Redirect to INDYCAR 13.</noscript>
+        
+    </body>
+    
+</html>
