@@ -19,8 +19,8 @@
   "PrivacyPolicy": {
     "Version": "1.1",
     "TermsConditions": "I agree to the NASCAR.com Privacy Statement and Terms of Service, which shall govern my use of NASCAR Mobile (unless otherwise indicated).",
-    "PrivacyPolicyPageUrl": "https://m.nascar.com/en_us/privacy.html",
-    "TermsOfUsePageUrl": "https://m.nascar.com/en_us/terms-of-use.html"
+    "PrivacyPolicyPageUrl": "https://www.nascar.com/privacy-policy",
+    "TermsOfUsePageUrl": "https://www.nascar.com/terms-of-use"
   },
   "PurchaseScreen": {
     "Header": {
