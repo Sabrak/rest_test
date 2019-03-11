@@ -1,0 +1,796 @@
+{
+  "BaseUrl": "https://mnascar-a.akamaihd.net/",
+  "ActualYear": 2019,
+  "Sponsors": {
+    "Toyota": {
+      "ArticlesFeedUrl": "{year}/{series_id}/toyota-racing.json",
+      "VideosFeedUrl": "{year}/{series_id}/toyota-video-feed.json",
+      "TwitterFeedUrl": "https://tweetriver.com/SapientNASCAR/toyota-racing-twitter-stream.json?since_id=754343894096158720"
+    },
+    "Fedex": {
+      "LogoUrl": "{BaseUrl}/data/images/sponsor_images/{UIIdiom}_fedex@2x.png",
+      "VideosFeedUrl": "{year}/1/fedex-video-feed.json"
+    },
+    "Xfinity": {
+      "LogoUrl": "{BaseUrl}/data/images/sponsor_images/{UIIdiom}_xfinity.png",
+      "VideosFeedUrl": "{year}/1/monster-energy-nascar-cup-360-video-feed.json"
+    }
+  },
+  "PrivacyPolicy": {
+    "Version": "1.1",
+    "TermsConditions": "I agree to the NASCAR.com Privacy Statement and Terms of Service, which shall govern my use of NASCAR Mobile (unless otherwise indicated).",
+    "PrivacyPolicyPageUrl": "https://m.nascar.com/en_us/privacy.html",
+    "TermsOfUsePageUrl": "https://m.nascar.com/en_us/terms-of-use.html"
+  },
+  "PurchaseScreen": {
+    "Header": {
+      "Title1": "The Best Way to Watch and Listen to Live NASCAR Racing",
+      "Title2": "Subscribe for additional live features"
+    },
+    "Features": [
+      "Listen to the drivers, spotters and crew chief",
+      "Live GPS car position",
+      "Live pit data for each driver",
+      "No Ads"
+    ]
+  },
+  "Notifications": {
+    "News": {
+      "Tag": "breaking-news",
+      "OmnitureTag": "breaking-news",
+      "DefaultIsOn": true,
+      "Type": 0,
+      "Description": "Breaking news alerts and follow stories as they develop"
+    },
+    "Live Event Updates": {
+      "Tag": "Live-Event-Updates",
+      "OmnitureTag": "Live-Event-Updates",
+      "DefaultIsOn": true,
+      "Type": 1,
+      "Description": "Receive periodic Race updates for each NASCAR Series including Tune-In, Leaderboard updates, and Results"
+    },
+    "Fantasy Live Updates": {
+      "Tag": "Fantasy-Updates",
+      "OmnitureTag": "Fantasy-Updates",
+      "DefaultIsOn": true,
+      "Type": 0,
+      "Description": "Get reminders to set your lineup and update your team throughout the race"
+    }
+  },
+  "InAppPurchases-iOS": {
+    "NumOfItems": 8,
+    "Items": [
+      {
+        "Name": "Monthly Subscription",
+        "Description": "Monthly access autobilled every 30 days",
+        "ProductID": "NASCAR_NM_iOS_SEASON_MONTHLY_19",
+        "Type": "Auto-Renewable",
+        "Active": true,
+        "ConfirmationText": "Get month-to-month access for {price} per month. You will be automatically billed {price} through iTunes every 30 days until you cancel your subscription."
+      },
+      {
+        "Name": "Season Subscription",
+        "Description": "Season pass for Premium Features",
+        "ProductID": "NASCAR_NM_iOS_SEASON_19",
+        "Type": "Non-Consumable",
+        "Active": true
+      },
+      {
+        "Name": "Monthly",
+        "Description": "Monthly access autobilled every 30 days",
+        "ProductID": "NASCAR_NM_iOS_SEASON_MONTHLY_18",
+        "Type": "Auto-Renewable",
+        "Active": true
+      },
+      {
+        "Name": "Monthly",
+        "Description": "Monthly access autobilled every 30 days",
+        "ProductID": "NASCAR_NM_iOS_SEASON_MONTHLY_17",
+        "Type": "Auto-Renewable",
+        "Active": true
+      },
+      {
+        "Name": "Monthly Subscription",
+        "Description": "Get month-to-month access",
+        "ProductID": "NASCAR_NM_iOS_SEASON_MONTHLY_16",
+        "Type": "Auto-Renewable",
+        "Active": true
+      },
+      {
+        "Name": "Monthly Subscription",
+        "Description": "Get month-to-month access",
+        "ProductID": "NASCAR_NM_iOS_SEASON_MONTHLY_15",
+        "Type": "Auto-Renewable",
+        "Active": true
+      },
+      {
+        "Name": "Monthly Pass '14",
+        "Description": "Monthly pass to premium content",
+        "ProductID": "NASCAR_NM_iOS_MONTH",
+        "Type": "Auto-Renewable",
+        "Active": true
+      },
+      {
+        "Name": "Monthly Pass '13",
+        "Description": "Monthly pass to premium content",
+        "ProductID": "NASCAR_NM13_iOS_30days",
+        "Type": "Auto-Renewable",
+        "Active": true
+      }
+    ],
+    "Trial": {
+      "Name": "7-DAY FREE TRIAL",
+      "Description": "",
+      "ProductID": "NASCAR_NM_iOS_FREE_TRIAL",
+      "Type": "Auto-Renewable",
+      "Active": true,
+      "Visible": true
+    },
+    "RacePasses": [
+      {
+        "Name": "Martinsville",
+        "Description": "",
+        "ProductID": "NASCAR_NM_iOS_7_MARTINSVILLE_18",
+        "Type": "Non-Consumable",
+        "Active": false
+      },
+      {
+        "Name": "Homestead",
+        "Description": "",
+        "ProductID": "NASCAR_NM_iOS_10_HOMESTEAD_18",
+        "Type": "Non-Consumable",
+        "Active": false
+      }
+    ],
+    "Description": {
+      "Title": "Renews automatically and will be charged for the upcoming period up to 24 hours before the start of the new period. Cancel anytime.",
+      "body": "By placing this order, you agree to NASCAR's Terms of Use and Privacy Statement. Your iTunes Account will be charged once purchase is confirmed. Subscription automatically renews unless auto-renew is turned off at least 24-hours before the end of the current period. You can manage your subscription and turn off auto-renew from your iTunes Account settings."
+    }
+  },
+  "InAppPurchases-Android": {
+    "SeasonButtonActive": "season",
+    "MonthlyButtonActive": "monthly19",
+    "SeasonCodes": [
+      {
+        "Id": "season",
+        "Name": "Season Subscription",
+        "Sku": "nascar_nm_android_season_19",
+        "Price": "$29.99",
+        "Description": "Season pass for Premium Features"
+      }
+    ],
+    "Monthly": {
+      "Id": "monthly19",
+      "Name": "Monthly Subscription",
+      "Sku": "nascar_nm_android_month_19",
+      "Price": "$4.99",
+      "Description": "Get month-to-month access"
+    },
+    "MonthlyCodes": [
+      {
+        "Id": "monthly19",
+        "Name": "Monthly Subscription",
+        "Sku": "nascar_nm_android_month_19",
+        "Price": "$4.99",
+        "Description": "Get month-to-month access",
+        "ConfirmationText": "Get month-to-month access for {price} per month. You will be automatically billed {price} through iTunes every 30 days until you cancel your subscription."
+      },
+      {
+        "Id": "monthly18",
+        "Name": "Monthly Subscription",
+        "Sku": "nascar_nm_android_month_18",
+        "Price": "$4.99",
+        "Description": "Get month-to-month access",
+        "ConfirmationText": "Get month-to-month access for {price} per month. You will be automatically billed {price} through iTunes every 30 days until you cancel your subscription."
+      },
+      {
+        "Id": "monthly17",
+        "Name": "Monthly Subscription",
+        "Sku": "nascar_nm_android_month_17",
+        "Price": "$3.99",
+        "Description": "Get month-to-month access"
+      },
+      {
+        "Id": "monthly16",
+        "Name": "Monthly Subscription",
+        "Sku": "nascar_nm_android_month_16",
+        "Price": "$3.99",
+        "Description": "Get month-to-month access"
+      },
+      {
+        "Id": "monthly14",
+        "Name": "Monthly Subscription",
+        "Sku": "nascar_nm_android_month",
+        "Price": "$3.99"
+      },
+      {
+        "Id": "monthly13",
+        "Name": "MONTHLY SUBSCRIPTION",
+        "Sku": "nascar_nm13_android_monthly_pass",
+        "Price": "$2.99"
+      },
+      {
+        "Id": "monthly15",
+        "Name": "Monthly Subscription",
+        "Sku": "nascar_nm_android_month_15",
+        "Price": "$3.99",
+        "Description": "Get month-to-month access"
+      }
+    ],
+    "RacePasses": [
+      {
+        "Name": "Martinsville",
+        "Description": "",
+        "Sku": "nascar_nm_android_martinsville_18OFF"
+      },
+      {
+        "Name": "Homestead",
+        "Description": "",
+        "Sku": "nascar_nm_android_homestead_18"
+      }
+    ],
+    "Description": {
+      "Title": "Renews automatically. Cancel anytime.",
+      "body": "By placing this order, you agree to NASCAR's Terms of Use and Privacy Statement. Your Google Payments account will be charged once purchase is confirmed. Subscription automatically renews unless auto-renew is turned off at least 24-hours before the end of the current period. You can manage your subscription and turn off auto-renew from your Google Payments account settings."
+    },
+    "Trial": {
+      "Name": "7-Day Free trial",
+      "Sku": "nascar_nm_android_free_trial",
+      "Description": "Get month-to-month access",
+      "Active": true
+    }
+  },
+  "Dfp": {
+    "appname": "nascar",
+    "krux-id": "KNhDvO-h",
+    "krux-id-ios": "rlmmbkvq2",
+    "krux-id-android": "rlmmevqmx",
+    "krux-applaunch-event-id": "KNhFVPwX",
+    "krux-applaunch-event-id-ios": "LMm5mYWk",
+    "krux-applaunch-event-id-android": "LMm5_QSk",
+    "millennial-site-id-ios": "8a80944a01484840e18d4217bbcb002e",
+    "millennial-dcn-ios": "",
+    "millennial-site-id-android": "8a80944a01484840e18d421f56790034",
+    "millennial-dcn-android": "",
+    "network": "73074296",
+    "adunits": {
+      "article-bottom-phone": "/{network}/NASCAR-App-iOS/news/articles",
+      "article-bottom-tablet": "/{network}/NASCAR-App-iOS/news/articles",
+      "chase-grid-bottom-phone": "/{network}/NASCAR-App-iOS/series-1/chase-grid",
+      "chase-grid-bottom-tablet": "/{network}/NASCAR-App-iOS/series-1/chase-grid",
+      "chase-hub-bottom-phone": "/{network}/NASCAR-App-iOS/series-1/chase-grid",
+      "chase-hub-bottom-tablet": "/{network}/NASCAR-App-iOS/series-1/chase-grid",
+      "chase-hub-top-phone": "/{network}/NASCAR-App-iOS/series-1/chase-grid",
+      "chase-hub-top-tablet": "/{network}/NASCAR-App-iOS/series-1/chase-grid",
+      "coors-news-cell-phone": "/{network}/TEST/main",
+      "coors-news-cell-tablet": "/{network}/TEST/main",
+      "driver-info-bottom-phone": "/{network}/NASCAR-App-iOS/drivers",
+      "driver-info-bottom-tablet": "/{network}/NASCAR-App-iOS/drivers",
+      "driver-list-phone": "/{network}/NASCAR-App-iOS/drivers/landing",
+      "fantasy-live-menu-bottom-phone": "/{network}/NASCAR-App-iOS/fantasy",
+      "generic": "/{network}/TEST/main",
+      "highlights-bottom-phone": "/{network}/NASCAR-App-iOS/live/highlights",
+      "highlights-bottom-tablet": "/{network}/NASCAR-App-iOS/live/highlights",
+      "highlights-top-phone": "/{network}/NASCAR-App-iOS/live/highlights",
+      "highlights-top-tablet": "/{network}/NASCAR-App-iOS/live/highlights",
+      "highlights-video-bottom-phone": "/{network}/NASCAR-App-iOS/live/highlights",
+      "highlights-video-bottom-tablet": "/{network}/NASCAR-App-iOS/live/highlights",
+      "highlights-video-right-tablet": "/{network}/NASCAR-App-iOS/live/highlights",
+      "highlights-video-top-phone": "/{network}/NASCAR-App-iOS/live/highlights",
+      "home-series-1-post-race-bottom-phone": "/{network}/NASCAR-App-iOS/series-1/homepage",
+      "home-series-1-post-race-bottom-tablet": "/{network}/NASCAR-App-iOS/series-1/homepage",
+      "home-series-1-postrace-interstitial-phone": "/{network}/NASCAR-App-iOS/series-1/homepage",
+      "home-series-1-postrace-interstitial-tablet": "/{network}/NASCAR-App-iOS/series-1/homepage",
+      "home-series-1-pre-race-bottom-phone": "/{network}/NASCAR-App-iOS/series-1/homepage",
+      "home-series-1-pre-race-bottom-tablet": "/{network}/NASCAR-App-iOS/series-1/homepage",
+      "home-series-1-prerace-interstitial-phone": "/{network}/NASCAR-App-iOS/series-1/homepage",
+      "home-series-1-prerace-interstitial-tablet": "/{network}/NASCAR-App-iOS/series-1/homepage",
+      "home-series-2-post-race-bottom-phone": "/{network}/NASCAR-App-iOS/series-2/homepage",
+      "home-series-2-post-race-bottom-tablet": "/{network}/NASCAR-App-iOS/series-2/homepage",
+      "home-series-2-postrace-interstitial-phone": "/{network}/NASCAR-App-iOS/series-2/homepage",
+      "home-series-2-postrace-interstitial-tablet": "/{network}/NASCAR-App-iOS/series-2/homepage",
+      "home-series-2-pre-race-bottom-phone": "/{network}/NASCAR-App-iOS/series-2/homepage",
+      "home-series-2-pre-race-bottom-tablet": "/{network}/NASCAR-App-iOS/series-2/homepage",
+      "home-series-2-prerace-interstitial-phone": "/{network}/NASCAR-App-iOS/series-2/homepage",
+      "home-series-2-prerace-interstitial-tablet": "/{network}/NASCAR-App-iOS/series-2/homepage",
+      "home-series-3-post-race-bottom-phone": "/{network}/NASCAR-App-iOS/series-3/homepage",
+      "home-series-3-post-race-bottom-tablet": "/{network}/NASCAR-App-iOS/series-3/homepage",
+      "home-series-3-postrace-interstitial-phone": "/{network}/NASCAR-App-iOS/series-3/homepage",
+      "home-series-3-postrace-interstitial-tablet": "/{network}/NASCAR-App-iOS/series-3/homepage",
+      "home-series-3-pre-race-bottom-phone": "/{network}/NASCAR-App-iOS/series-3/homepage",
+      "home-series-3-pre-race-bottom-tablet": "/{network}/NASCAR-App-iOS/series-3/homepage",
+      "home-series-3-prerace-interstitial-phone": "/{network}/NASCAR-App-iOS/series-3/homepage",
+      "home-series-3-prerace-interstitial-tablet": "/{network}/NASCAR-App-iOS/series-3/homepage",
+      "home-race-results-bottom-phone": "/{network}/NASCAR-App-iOS/results",
+      "home-race-results-bottom-tablet": "/{network}/NASCAR-App-iOS/results",
+      "instagram-bottom-phone": "/{network}/TEST/main",
+      "lapbylap-bottom-phone": "/{network}/NASCAR-App-iOS/live/lap-by-lap",
+      "lapbylap-bottom-tablet": "/{network}/NASCAR-App-iOS/live/lap-by-lap",
+      "live-audio-bottom-phone": "/{network}/NASCAR-App-iOS/live/leaderboard",
+      "live-crew-chief-bottom-phone": "/{network}/NASCAR-App-iOS/live/crew-chief",
+      "live-crew-chief-bottom-tablet": "/{network}/NASCAR-App-iOS/live/crew-chief",
+      "live-drive-bottom-phone": "/{network}/NASCAR-App-iOS/live/in-car-camera/landing",
+      "live-drive-bottom-tablet": "/{network}/NASCAR-App-iOS/live/in-car-camera/landing",
+      "live-drive-top-tablet": "/{network}/NASCAR-App-iOS/live/in-car-camera/landing",
+      "live-drive-top-phone": "/{network}/NASCAR-App-iOS/live/in-car-camera/landing",
+      "main-sponsor-news-bottom-phone": "/{network}/NASCAR-App-iOS/Sponsorship3/news/landing",
+      "main-sponsor-news-bottom-tablet": "/{network}/NASCAR-App-iOS/Sponsorship3/news/landing",
+      "main-sponsor-news-bottom-phone-detail": "/{network}/NASCAR-App-iOS/Sponsorship3/news/articles",
+      "main-sponsor-news-bottom-tablet-detail": "/{network}/NASCAR-App-iOS/Sponsorship3/news/articles",
+      "main-sponsor-social-bottom-phone": "/{network}/NASCAR-App-iOS/Sponsorship3/social/landing",
+      "main-sponsor-social-bottom-phone-detail": "/{network}/NASCAR-App-iOS/Sponsorship3/social/articles",
+      "main-sponsor-social-bottom-tablet": "/{network}/NASCAR-App-iOS/Sponsorship3/social/landing",
+      "main-sponsor-video-bottom-phone": "/{network}/NASCAR-App-iOS/Sponsorship3/landing",
+      "main-sponsor-video-bottom-phone-detail": "/{network}/NASCAR-App-iOS/Sponsorship3/video-on-demand",
+      "main-sponsor-video-bottom-tablet": "/{network}/NASCAR-App-iOS/Sponsorship3/landing",
+      "main-sponsor-video-bottom-tablet-detail": "/{network}/NASCAR-App-iOS/Sponsorship3/video-on-demand",
+      "main-sponsor-video-top-phone-detail": "/{network}/NASCAR-App-iOS/Sponsorship3/video-on-demand",
+      "main-sponsor-video-top-right-tablet-detail": "/{network}/NASCAR-App-iOS/Sponsorship3/video-on-demand",
+      "manufacturers-bottom-phone": "/{network}/NASCAR-App-iOS/standings/manufacturer",
+      "manufacturers-bottom-tablet": "/{network}/NASCAR-App-iOS/standings/manufacturer",
+      "more-menu-bottom-phone": "/{network}/NASCAR-App-iOS",
+      "msc-bio-bottom-phone": "/{network}/NASCAR/promos/sprint/msc_bios/app",
+      "msc-bio-bottom-tablet": "/{network}/NASCAR/promos/sprint/msc_bios/app",
+      "msc-bio-detail-bottom-phone": "/{network}/NASCAR/promos/sprint/msc_bios_detail/app",
+      "msc-bio-detail-bottom-tablet": "/{network}/NASCAR/promos/sprint/msc_bios_detail/app",
+      "msc-social-bottom-phone": "/{network}/NASCAR/promos/sprint/msc_social/app",
+      "msc-social-bottom-tablet": "/{network}/NASCAR/promos/sprint/msc_social/app",
+      "msc-social-detail-bottom-phone": "/{network}/NASCAR/promos/sprint/msc_social_detail/app",
+      "msc-social-detail-bottom-tablet": "/{network}/NASCAR/promos/sprint/msc_social_detail/app",
+      "msc-video-bottom-phone": "/{network}/NASCAR/promos/sprint/msc_video/app",
+      "msc-video-bottom-tablet": "/{network}/NASCAR/promos/sprint/msc_video/app",
+      "msc-video-details-companion-phone": "/{network}/NASCAR/promos/sprint/msc_video_detail/app",
+      "msc-video-details-companion-tablet": "/{network}/NASCAR/promos/sprint/msc_video_detail/app",
+      "news-media-bottom-phone": "/{network}/NASCAR-App-iOS/news/articles",
+      "news-media-bottom-tablet": "/{network}/NASCAR-App-iOS/news/articles",
+      "news-media-series-1-main-sponsor-cell-phone": "/{network}/NASCAR-App-iOS/series-1/homepage/inline-1",
+      "news-media-series-1-main-sponsor-cell-tablet": "/{network}/NASCAR-App-iOS/series-1/homepage/inline-1",
+      "news-media-series-1-sponsor-cell-phone": "/{network}/NASCAR-App-iOS/series-1/homepage/inline-2",
+      "news-media-series-1-sponsor-cell-tablet": "/{network}/NASCAR-App-iOS/series-1/homepage/inline-2",
+      "news-media-series-2-main-sponsor-cell-phone": "/{network}/NASCAR-App-iOS/series-2/homepage/inline-1",
+      "news-media-series-2-main-sponsor-cell-tablet": "/{network}/NASCAR-App-iOS/series-2/homepage/inline-1",
+      "news-media-series-2-sponsor-cell-phone": "/{network}/NASCAR-App-iOS/series-2/homepage/inline-2",
+      "news-media-series-2-sponsor-cell-tablet": "/{network}/NASCAR-App-iOS/series-2/homepage/inline-2",
+      "news-media-series-3-main-sponsor-cell-phone": "/{network}/NASCAR-App-iOS/series-3/homepage/inline-1",
+      "news-media-series-3-main-sponsor-cell-tablet": "/{network}/NASCAR-App-iOS/series-3/homepage/inline-1",
+      "news-media-series-3-sponsor-cell-phone": "/{network}/NASCAR-App-iOS/series-3/homepage/inline-2",
+      "news-media-series-3-sponsor-cell-tablet": "/{network}/NASCAR-App-iOS/series-3/homepage/inline-2",
+      "notifications-bottom-phone": "/{network}/NASCAR-App-iOS",
+      "notifications-bottom-tablet": "/{network}/NASCAR-App-iOS",
+      "practice-leaderboard-bottom-phone": "/{network}/NASCAR-App-iOS/live/leaderboard",
+      "practice-leaderboard-bottom-tablet": "/{network}/NASCAR-App-iOS/live/leaderboard",
+      "push-alert-top-phone": "/{network}/TEST/main",
+      "push-alert-top-tablet": "/{network}/TEST/main",
+      "qualifying-leaderboard-bottom-phone": "/{network}/NASCAR-App-iOS/live/leaderboard",
+      "qualifying-leaderboard-bottom-tablet": "/{network}/NASCAR-App-iOS/live/leaderboard",
+      "race-hub-bottom-phone": "/{network}/NASCAR-App-iOS/race-center",
+      "race-hub-bottom-tablet": "/{network}/NASCAR-App-iOS/race-center",
+      "race-leaderboard-bottom-phone": "/{network}/NASCAR-App-iOS/live/leaderboard",
+      "race-leaderboard-bottom-tablet": "/{network}/NASCAR-App-iOS/live/leaderboard",
+      "schedule-bottom-phone": "/{network}/NASCAR-App-iOS/schedule",
+      "schedule-bottom-tablet": "/{network}/NASCAR-App-iOS/schedule",
+      "settings-menu-bottom-phone": "/{network}/NASCAR-App-iOS",
+      "social-details-bottom-phone": "/{network}/TEST/main",
+      "sponsor-series-1-top-phone": "/{network}/NASCAR-App-iOS/series-1/homepage",
+      "sponsor-series-1-top-tablet": "/{network}/NASCAR-App-iOS/series-1/homepage",
+      "sponsor-series-2-top-phone": "/{network}/NASCAR-App-iOS/series-2/homepage",
+      "sponsor-series-2-top-tablet": "/{network}/NASCAR-App-iOS/series-2/homepage",
+      "sponsor-series-3-top-phone": "/{network}/NASCAR-App-iOS/series-3/homepage",
+      "sponsor-series-3-top-tablet": "/{network}/NASCAR-App-iOS/series-3/homepage",
+      "sponsor-video-bottom-phone": "/{network}/NASCAR-App-iOS/Sponsorship2/landing",
+      "sponsor-video-bottom-tablet": "/{network}/NASCAR-App-iOS/Sponsorship2/landing",
+      "sponsor-video-details-phone": "/{network}/NASCAR-App-iOS/Sponsorship2/video-on-demand",
+      "sponsor-video-details-tablet": "/{network}/NASCAR-App-iOS/Sponsorship2/video-on-demand",
+      "xfinity-video-bottom-phone": "/{network}/NASCAR-App-iOS/Sponsorship1/landing",
+      "xfinity-video-bottom-tablet": "/{network}/NASCAR-App-iOS/Sponsorship1/landing",
+      "xfinity-video-details-phone": "/{network}/NASCAR-App-iOS/Sponsorship1/video-on-demand",
+      "xfinity-video-details-tablet": "/{network}/NASCAR-App-iOS/Sponsorship1/video-on-demand",
+      "sprint-webview-bottom-phone": "/{network}/TEST/main",
+      "sprint-webview-bottom-tablet": "/{network}/TEST/main",
+      "standings-bottom-phone": "/{network}/NASCAR-App-iOS/standings/landing",
+      "standings-bottom-tablet": "/{network}/NASCAR-App-iOS/standings/landing",
+      "track-details-bottom-phone": "/{network}/NASCAR/races/tracks/detail/app",
+      "track-list-bottom-phone": "/{network}/NASCAR-App-iOS",
+      "track-list-bottom-tablet": "/{network}/NASCAR-App-iOS",
+      "video-details-companion-phone": "/{network}/NASCAR-App-iOS/news/video-on-demand/landing",
+      "video-details-companion-tablet": "/{network}/NASCAR-App-iOS/news/video-on-demand/landing",
+      "video-playback-top-phone": "/{network}/NASCAR-App-iOS/news/video-on-demand",
+      "video-playback-top-right-tablet": "/{network}/NASCAR-App-iOS/news/video-on-demand",
+      "video-view-bottom-phone": "/{network}/TEST/main",
+      "video-view-top-phone": "/{network}/TEST/main",
+      "video-view-top-tablet": "/{network}/TEST/main",
+      "weather-bottom-phone": "/{network}/NASCAR-App-iOS/live/weather",
+      "weather-bottom-tablet": "/{network}/NASCAR-App-iOS/live/weather"
+    },
+    "ima-settings": {
+      "ppid": "73074296",
+      "language": "en",
+      "maxRedirects": 4,
+      "ad-tag-urls": {
+        "live-video": "https://pubads.g.doubleclick.net/gampad/ads?env=vp&gdfp_req=1&impl=s&output=vast&cmsid=2296&vid=&iu=/73074296/NASCAR-App-iOS/live/in-car-camera/landing&sz=640x480&unviewed_position_start=1&url=http%3A%2F%2Fnascar.com%2Fnews&description_url=http%3A%2F%2Fnascar.com%2Fnews&cust_params=pgtype%3Dvideo%26s1%3Dlive%26s2%3Din-car-camera%26s3%3Dlanding%26pos%3Dslot_video_preroll_ad_01%26test%3D&correlator=123456789",
+        "race-highlights": "https://pubads.g.doubleclick.net/gampad/live/ads?iu=/73074296/NASCAR-App-iOS/live/highlights&description_url=http%3A%2F%2Fnascar.com&env=vp&impl=s&correlator=&tfcd=0&npa=0&gdfp_req=1&output=vast&sz=640x480&cust_params=s1%3Dlive%26s2%3Dhighlights%26pos%3Dslot_video_preroll_ad_01&unviewed_position_start=1",
+        "sponsorship1-video-on-demand": "https://pubads.g.doubleclick.net/gampad/ads?env=vp&gdfp_req=1&impl=s&output=vast&cmsid=2296&vid=&iu=/73074296/NASCAR-App-iOS/Sponsorship3/video-on-demand&sz=640x480&unviewed_position_start=1&url=http%3A%2F%2Fnascar.com%2Fnews&description_url=http%3A%2F%2Fnascar.com%2Fnews&cust_params=pgtype%3Dvideo%26s1%3DSponsorship3%26s2%3Dvideo-on-demand%26pos%3Dslot_video_preroll_ad_01%26test%3D&correlator=123456789",
+        "sponsorship2-video-on-demand": "https://pubads.g.doubleclick.net/gampad/ads?env=vp&gdfp_req=1&impl=s&output=vast&cmsid=2296&vid=&iu=/73074296/NASCAR-App-iOS/Sponsorship2/video-on-demand&sz=640x480&unviewed_position_start=1&url=http%3A%2F%2Fnascar.com%2Fnews&description_url=http%3A%2F%2Fnascar.com%2Fnews&cust_params=pgtype%3Dvideo%26s1%3DSponsorship2%26s2%3Dvideo-on-demand%26pos%3Dslot_video_preroll_ad_01%26test%3D&correlator=123456789",
+        "sponsorship3-video-on-demand": "https://pubads.g.doubleclick.net/gampad/ads?env=vp&gdfp_req=1&impl=s&output=vast&cmsid=2296&vid=&iu=/73074296/NASCAR-App-iOS/Sponsorship1/video-on-demand&sz=640x480&unviewed_position_start=1&url=http%3A%2F%2Fnascar.com%2Fnews&description_url=http%3A%2F%2Fnascar.com%2Fnews&cust_params=pgtype%3Dvideo%26s1%3DSponsorship1%26s2%3Dvideo-on-demand%26pos%3Dslot_video_preroll_ad_01%26test%3D&correlator=123456789",
+        "video-on-demand": "https://pubads.g.doubleclick.net/gampad/ads?env=vp&gdfp_req=1&impl=s&output=vast&cmsid=2296&vid=&iu=/73074296/NASCAR-App-iOS/news/video-on-demand&sz=640x480&unviewed_position_start=1&url=http%3A%2F%2Fnascar.com%2Fnews&description_url=http%3A%2F%2Fnascar.com%2Fnews&cust_params=pgtype%3Dvideo%26s1%3Dnews%26s2%3Dvideo-on-demand%26pos%3Dslot_video_preroll_ad_01%26test%3D&correlator=123456789"
+      }
+    },
+    "drive-screen-franchise-variants": [
+      "drive1",
+      ""
+    ]
+  },
+  "Banners": {
+    "PrimeTime": {
+      "ImageUrl": "{BaseUrl}/data/images/promo/PrimeTimeBanner_tablet.png",
+      "Link": "http://calendar.nascar.com/schedule",
+      "IsExternal": true
+    },
+    "Vote": {
+      "PromotionImage": {
+        "Phone": "{BaseUrl}/data/images/promo/mobile-votenow.png",
+        "Tablet": "{BaseUrl}/data/images/promo/tablet-votenow.png"
+      },
+      "Url": {
+        "Phone": "https://www.nascar.com/nascarmostpopulardriver",
+        "Tablet": "https://www.nascar.com/nascarmostpopulardriver"
+      },
+      "PerSeries": {
+        "1": {
+          "Display": false,
+          "Position": {
+            "Phone": 2,
+            "Tablet": 3
+          }
+        },
+        "2": {
+          "Display": false,
+          "Position": {
+            "Phone": 5,
+            "Tablet": 5
+          }
+        },
+        "3": {
+          "Display": false,
+          "Position": {
+            "Phone": 11,
+            "Tablet": 20
+          }
+        }
+      }
+    }
+  },
+  "HamburgerMenu": {
+    "Phone": [
+      {
+        "Title": "AR RACE EXPERIENCE",
+        "Hidden": false,
+        "Id": 17
+      },
+      {
+        "Title": "BUY PREMIUM",
+        "Id": 1
+      },
+      {
+        "Title": "DRIVERS",
+        "Id": 7
+      },
+      {
+        "Title": "TOYOTA CAMRY ON TRACK",
+        "Hidden": false,
+        "Id": 8
+      },
+      {
+        "Title": "360 VIDEO",
+        "Hidden": false,
+        "Id": 9
+      },
+      {
+        "Title": "PREVIEW SHOW",
+        "Hidden": false,
+        "Id": 10
+      },
+      {
+        "Title": "NOTIFICATIONS",
+        "Id": 11
+      },
+      {
+        "Title": "TRACKS, TICKETS AND HOTELS",
+        "Id": 12
+      },
+      {
+        "Title": "PLAY DRAFTKINGS",
+        "Hidden": true,
+        "Id": 16
+      },
+      {
+        "Title": "SHOP",
+        "Id": 13
+      },
+      {
+        "Title": "MY ACCOUNT",
+        "Id": 14
+      },
+      {
+        "Title": "ABOUT",
+        "Id": 15
+      }
+    ],
+    "Tablet": [
+      {
+        "Title": "BUY PREMIUM",
+        "Id": 1
+      },
+      {
+        "Title": "NEWS",
+        "Id": 2
+      },
+      {
+        "Title": "SCHEDULE",
+        "Id": 3
+      },
+      {
+        "Title": "STANDINGS",
+        "Id": 4
+      },
+      {
+        "Title": "FANTASY",
+        "Id": 6
+      },
+      {
+        "Title": "DRIVERS",
+        "Id": 7
+      },
+      {
+        "Title": "PLAY DRAFTKINGS",
+        "Hidden": true,
+        "Id": 16
+      },
+      {
+        "Title": "TOYOTA CAMRY ON TRACK",
+        "Hidden": false,
+        "Id": 8
+      },
+      {
+        "Title": "360 VIDEO",
+        "Hidden": false,
+        "Id": 9
+      },
+      {
+        "Title": "PREVIEW SHOW",
+        "Hidden": false,
+        "Id": 10
+      },
+      {
+        "Title": "NOTIFICATIONS",
+        "Id": 11
+      },
+      {
+        "Title": "TRACKS, TICKETS AND HOTELS",
+        "Id": 12
+      },
+      {
+        "Title": "SHOP",
+        "Id": 13
+      },
+      {
+        "Title": "MY ACCOUNT",
+        "Id": 14
+      },
+      {
+        "Title": "ABOUT",
+        "Id": 15
+      }
+    ]
+  },
+  "Feeds": {
+    "ArticlesUrl": "{year}/{series_id}/article-feed.json",
+    "VideosUrl": "{year}/{series_id}/video-feed.json",
+    "GalleriesUrl": "https://s3.amazonaws.com/nascar-www/data/cacher/production/{year}/{series_id}/gallery-feed.json",
+    "RaceHubMediaUrl": "{BaseUrl}/data/cacher/production/2019/{series_id}/article-feed.json",
+    "VideoLiveConfigUrlPerSeries": {
+      "1": "https://www.nascar.com/mobile-cms/config_video_live_streams.json",
+      "2": "https://www.nascar.com/mobile-cms/config_video_live_streams.json",
+      "3": "https://www.nascar.com/mobile-cms/config_video_live_streams.json"
+    },
+    "InCarAudioUrlPerSeries": {
+      "1": "https://www.nascar.com/config/audio/audio_mapping_1_3.json",
+      "2": "https://www.nascar.com/config/audio/audio_mapping_2_3.json",
+      "3": "https://www.nascar.com/config/audio/audio_mapping_3_3.json"
+    },
+    "FeaturedNewsUrl": "https://s3.amazonaws.com/nascar-mobile/mobileConfig/config_featured_news.json",
+    "LapByLapUrlPerSeries": {
+      "1": "https://nascar.massrel.io/nascar-lap-by-lap-race-weekend/?mobileHeader=0&mobileFooter=0",
+      "2": "https://nascar.massrel.io/nascar-lap-by-lap-race-weekend/?mobileHeader=0&mobileFooter=0",
+      "3": "https://nascar.massrel.io/nascar-lap-by-lap-race-weekend/?mobileHeader=0&mobileFooter=0"
+    },
+    "FantasyWebPageUrl": "https://fantasygames.nascar.com/live/",
+    "DraftKingsUrl": "https://gm3s.adj.st/gateway?s=259317963&adjust_t=eng1o9&adjust_deeplink=draftkings%3a%2f%2fgateway%3fs%3d259317963&fallback=www.draftkings.com%2fgateway%3fs%3d259317963",
+    "TSRelativeFeed": {
+      "BaseFeedUrl": {
+        "Production": "{BaseUrl}/data/cacher/production/",
+        "Staging": "{BaseUrl}/data/cacher/staging/"
+      },
+      "LivePointsDataUrl": "live/live-points-app.json",
+      "LivePassingDataUrl": "live/live-feed-app.json",
+      "LivePitDataUrl": "live/live-pit-data-app.json",
+      "HistoricalTrackInfoUrl": "tracks/all-tracks.json",
+      "TrackPropertiesDataUrl": "tracks/tracks_properties.json",
+      "HistoricalRaceListUrl": "{year}/{series_id}/race_list_basic.json",
+      "HistoricalRaceListDriverUrl": "{year}/{series_id}/drivers/{driver_id}-race-list.json",
+      "HistoricalRaceListBasicUrl": "{year}/race_list_basic.json",
+      "LiveWeekendScheduleUrl": "{year}/{series_id}/schedule-feed.json",
+      "DriverListUrl": "{year}/{series_id}/drivers-combined-feed1.json",
+      "WeekendUrl": "{year}/{series_id}/{race_id}-weekend-feed.json",
+      "HistoricalDriverInfoUrl": "{year}/{series_id}/drivers/{driver_id}-info-feed.json",
+      "HistoricalSeasonPointsUrl": "{year}/{series_id}/points-feed.json",
+      "DriverAdditionalInfoUrl": "drivers-additional-info.json",
+      "SnappyTVFeedUrl": "{year}/{series_id}/{race_id}-snappytv.json",
+      "OwnerStandingsUrl": "{year}/{series_id}/ownerpoints-feed.json",
+      "ManufacturerStandingsUrl": "{year}/{series_id}/manufacturer-standings.json"
+    },
+    "SportvisionUrl": {
+      "Production": "wss://test.nascardatalive.com:443/raceviewmobi",
+      "Staging": "ws://dev.nascardatalive.com:5002/racefeed"
+    },
+    "ApplicationStateUrl": "https://www.nascar.com/mobile-cms/live-na.json",
+    "ArPortalUrl": "https://s3.amazonaws.com/nascar-www/data/cacher/production/2018/1/ar-portal-feed.json",
+    "WatchUrl": {
+      "RaceListBasicUrl": "{BaseUrl}/data/cacher/production/2019/race_list_basic_watch.json"
+    },
+    "PlayoffStandingsUrlPerSeries": {
+      "1": "https://www.nascar.com/json/playoff_standings_drivers/?wid=1",
+      "2": "https://www.nascar.com/json/playoff_standings_drivers/?wid=2",
+      "3": "https://www.nascar.com/json/playoff_standings_drivers/?wid=3"
+    }
+  },
+  "DataIsAvailableForAllUsers": false,
+  "LiveCamerasAreAvailableForAllUsers": false,
+  "TimelineTabIsVisible": true,
+  "LapByLapTabIsVisiblePerSeries": {
+    "1": true,
+    "2": false,
+    "3": false
+  },
+  "Brightcove": {
+    "UseProductionKeys": true,
+    "AccountID": {
+      "Production": "1677257476001",
+      "Staging": "1677257475001"
+    },
+    "Key": {
+      "Production": "BCpkADawqM3L4phhXUftUZ3qY_obL5eDsJK-10UK7J6pd1a6hcvESQlS67JUVm0PWxrukJGlsb79v6Xapa1NUZdFcD1ZYM7gC2xswhjy9cqkqo2i9DiRN6yRQofHSiLgMbxTYb8Zz2S7aBT3",
+      "Staging": "BCpkADawqM3TnYBEvhiIbsDEAeJvwbizZqALcy9uQCguq5Er6y7h92yqQFDREkRettCdaZ3YGD6N6K9twngLYDsyQj50S2G59taQHcOrSVNJ7G8FU2QdjY7SsCDc2nzg-WYOXmisoN4XQWs5"
+    }
+  },
+  "PermitedOperators": [
+    "sprint",
+    "boost",
+    "virgin",
+    "BoostMobile",
+    "Virgin Mobile",
+    "Virgin",
+    "Boost Mobile",
+    "Boost MMS",
+    "Boost"
+  ],
+  "PermittedOperatorCodes": [
+    "310120",
+    "311020",
+    "311870",
+    "311490",
+    "316010"
+  ],
+  "FeedRequestTimeOut": 20,
+  "FeedMaxRetries": 3,
+  "AppStateRefreshInterval": 30,
+  "CrewChiefTimelineUpdateInterval": 30,
+  "LiveRacePointsUpdateInterval": 120,
+  "Messages": {
+    "Error": "Waiting for Connection",
+    "SubscriptionProductLoading": "Loading product information from app store ...",
+    "SubscriptionProductLoadFailed": "Load product information from app store failed!",
+    "SubscriptionNoConnection": "The application is unable to complete request at this time. Please try again later. Thanks.",
+    "BlockApp": "You must upgrade to the latest version to continue",
+    "WatchScannerFreeUserUnavailable": "Purchase to\naccess Scanner",
+    "NotificationsDisabledTitle": "\"NASCAR Mobile\" Would Like to Send You Notifications",
+    "NotificationsDisabledBody": "In order to receive alerts, you must enable Notifications in your device Settings Application",
+    "TurnOffNotificationsDescription": "Turn off notifications to disable all NASCAR Mobile alerts"
+  },
+  "HighlightsUnavailableText": "In-Race Highlights Will Be Available Soon",
+  "CrewChiefTimelineWillBeAvailableText": "Timeline will be available soon",
+  "SVIsSupported": true,
+  "TSFeedRefreshPeriod": 5,
+  "TicketsPageUrl": "https://m.nascar.com/buy-tickets/",
+  "OpenSourceAttributionUrl": "{BaseUrl}/data/html/2018/Production/open_source_attribution.html",
+  "ShopUrl": "https://store.nascar.com/source/BM-NAScom-MobileApp-04.11.14",
+  "ImagePaths": {
+    "TrackImage-iOS": "{BaseUrl}/data/images/vector-tracks/pdf/{track_id}.pdf",
+    "TrackImage-Android": "{BaseUrl}/data/images/vector-tracks/svg/{track_id}.svg",
+    "Driver": "{BaseUrl}/data/images/drivers/{year}/{series_id}/{driver_id}.png",
+    "DriverDefault": "{BaseUrl}/data/images/drivers/2013/{series_id}/default.png",
+    "Track": "{BaseUrl}/data/images/tracks/2014/{track_id}.jpg",
+    "TrackDefault": "{BaseUrl}/data/images/tracks/2014/default.jpg",
+    "CarBadge": "{BaseUrl}/data/images/carbadges/{series_id}/{car_number}.png",
+    "CarMake": "{BaseUrl}/data/images/makes/{car_make_code}.png",
+    "TVBroadcaster": "{BaseUrl}/data/images/broadcast-logos/2018/{broadcaster_code}.png",
+    "RaceLogo": "{BaseUrl}/data/images/tracklogos/{year}/Dark/{race_id}.png"
+  },
+  "SupportEmail": "nascarappsupport@nascar.com",
+  "UpgradeNowTier1-iOS": "https://www.nascar.com/mobile",
+  "UpgradeNowTier2OtherApp-iOS": "https://www.nascar.com/mobile",
+  "UpgradeNowTier2AppStoreLink-iOS": "https://www.nascar.com/mobile",
+  "RaceRadioAvailableChannelsPerSeries": {
+    "1": [
+      "all"
+    ],
+    "2": [
+      "all"
+    ],
+    "3": [
+      "all"
+    ]
+  },
+  "GigyaApiKey": "3_h06GICWuFBd8aAOkw3_Nesqtnv3O5_Ng3fx1VSWTWlj1WI51R_aHO6AYX0sITDmD",
+  "TwitterDateBaseUrl": "https://twitter.com/{screen_name}/status/{tweet_id}",
+  "TWC": {
+    "MemberId": "1473",
+    "MapId": "0002",
+    "TypeKey": "7B4966DE-936F-4A88-BD45-95FDA697766F"
+  },
+  "Weather": {
+    "ApiKey": "edd94e27293277a4",
+    "RadarRadius": 25,
+    "WeatherRefreshPeriod": 600,
+    "WeatherIconSet": "i"
+  },
+  "CarMakeTitleCodeMapping": {
+    "Toyota": "Tyt",
+    "Chevrolet": "Chv",
+    "Ford": "Frd",
+    "RAM": "Ram",
+    "Dodge": "Dge"
+  },
+  "ArPortal": {
+    "HomePageBanner": {
+      "Visible": false,
+      "UmageUrl": "{BaseUrl}/data/images/promo/AR-Homepage-750x200.png",
+      "LinkUrl": "nascarmobile://ar"
+    },
+    "LandingPageBanner": {
+      "ImageUrl": "{BaseUrl}/data/images/promo/AR-Landing-Page-750x150.png"
+    },
+    "Messages": {
+      "CameraAccessRequired": "The AR RACE EXPERIENCE requires the camera for surface detection.",
+      "CameraAccessDisabled": "The AR RACE EXPERIENCE requires the camera for surface detection. Please enable the camera in settings",
+      "UnsupportedFeature": "Unfortunately, this feature is not supported on your current device",
+      "InvalidVideo": "Unfortunately, this video is unavailable. Please try another one"
+    }
+  },
+  "EventModuleVisibilityPerSeries": {
+    "1": true,
+    "2": true,
+    "3": true
+  },
+  "Onboarding": {
+    "SignIn": {
+      "Title": "Sign In or create an account to get the most out of your NASCAR experience.",
+      "BackgroundUrl": {
+        "Phone": "{BaseUrl}/data/images/signin-gif/Phone-onboarding-9x16.gif",
+        "Tablet": "{BaseUrl}/data/images/signin-gif/Tablet-onboarding-16x9.gif"
+      }
+    },
+    "FavoriteDrivers": {
+      "Title": "Get the best experience by selecting your favorite NASCAR drivers",
+      "Desc": "Your favorite drivers will be kept right at the top!"
+    },
+    "Notifications": {
+      "Title": "Get breaking news alerts and follow stories",
+      "Desc": "Race updates, leaderboard updates, results and Fantasy Live updates from NASCAR."
+    }
+  },
+  "DownloadScheduleUrl": "https://calrep.ly/nascarapp",
+  "SingleSignOnRequiredPerFeature": {
+    "drive": true
+  }
+}
