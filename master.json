@@ -661,24 +661,6 @@
       "Staging": "BCpkADawqM3TnYBEvhiIbsDEAeJvwbizZqALcy9uQCguq5Er6y7h92yqQFDREkRettCdaZ3YGD6N6K9twngLYDsyQj50S2G59taQHcOrSVNJ7G8FU2QdjY7SsCDc2nzg-WYOXmisoN4XQWs5"
     }
   },
-  "PermitedOperators": [
-    "sprint",
-    "boost",
-    "virgin",
-    "BoostMobile",
-    "Virgin Mobile",
-    "Virgin",
-    "Boost Mobile",
-    "Boost MMS",
-    "Boost"
-  ],
-  "PermittedOperatorCodes": [
-    "310120",
-    "311020",
-    "311870",
-    "311490",
-    "316010"
-  ],
   "FeedRequestTimeOut": 20,
   "FeedMaxRetries": 3,
   "AppStateRefreshInterval": 30,
