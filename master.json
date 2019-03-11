@@ -172,16 +172,14 @@
         "Name": "Monthly Subscription",
         "Sku": "nascar_nm_android_month_19",
         "Price": "$4.99",
-        "Description": "Get month-to-month access",
-        "ConfirmationText": "Get month-to-month access for {price} per month. You will be automatically billed {price} through iTunes every 30 days until you cancel your subscription."
+        "Description": "Get month-to-month access"
       },
       {
         "Id": "monthly18",
         "Name": "Monthly Subscription",
         "Sku": "nascar_nm_android_month_18",
         "Price": "$4.99",
-        "Description": "Get month-to-month access",
-        "ConfirmationText": "Get month-to-month access for {price} per month. You will be automatically billed {price} through iTunes every 30 days until you cancel your subscription."
+        "Description": "Get month-to-month access"
       },
       {
         "Id": "monthly17",
