@@ -754,7 +754,7 @@
   "ArPortal": {
     "HomePageBanner": {
       "Visible": false,
-      "UmageUrl": "{BaseUrl}/data/images/promo/AR-Homepage-750x200.png",
+      "ImageUrl": "{BaseUrl}/data/images/promo/AR-Homepage-750x200.png",
       "LinkUrl": "nascarmobile://ar"
     },
     "LandingPageBanner": {
