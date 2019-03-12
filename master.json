@@ -602,8 +602,6 @@
       "2": "https://nascar.massrel.io/nascar-lap-by-lap-race-weekend/?mobileHeader=0&mobileFooter=0",
       "3": "https://nascar.massrel.io/nascar-lap-by-lap-race-weekend/?mobileHeader=0&mobileFooter=0"
     },
-    "FantasyWebPageUrl": "https://fantasygames.nascar.com/live/",
-    "DraftKingsUrl": "https://gm3s.adj.st/gateway?s=259317963&adjust_t=eng1o9&adjust_deeplink=draftkings%3a%2f%2fgateway%3fs%3d259317963&fallback=www.draftkings.com%2fgateway%3fs%3d259317963",
     "TSRelativeFeed": {
       "BaseFeedUrl": {
         "Production": "{BaseUrl}/data/cacher/production/",
@@ -684,6 +682,8 @@
   "TicketsPageUrl": "https://m.nascar.com/buy-tickets/",
   "OpenSourceAttributionUrl": "{BaseUrl}/data/html/2018/Production/open_source_attribution.html",
   "ShopUrl": "https://store.nascar.com/source/BM-NAScom-MobileApp-04.11.14",
+  "FantasyWebPageUrl": "https://fantasygames.nascar.com/live/",
+  "DraftKingsUrl": "https://gm3s.adj.st/gateway?s=259317963&adjust_t=eng1o9&adjust_deeplink=draftkings%3a%2f%2fgateway%3fs%3d259317963&fallback=www.draftkings.com%2fgateway%3fs%3d259317963",
   "ImagePaths": {
     "TrackImage-iOS": "{BaseUrl}/data/images/vector-tracks/pdf/{track_id}.pdf",
     "TrackImage-Android": "{BaseUrl}/data/images/vector-tracks/svg/{track_id}.svg",
