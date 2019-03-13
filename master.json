@@ -610,7 +610,7 @@
       "HistoricalRaceListDriverUrl": "{year}/{series_id}/drivers/{driver_id}-race-list.json",
       "HistoricalRaceListBasicUrl": "{year}/race_list_basic.json",
       "LiveWeekendScheduleUrl": "{year}/{series_id}/schedule-feed.json",
-      "DriverListUrl": "{year}/{series_id}/drivers-feed.json",
+      "DriverListUrl": "{year}/{series_id}/drivers-combined-feed1.json",
       "WeekendUrl": "{year}/{series_id}/{race_id}-weekend-feed.json",
       "HistoricalDriverInfoUrl": "{year}/{series_id}/drivers/{driver_id}-info-feed.json",
       "HistoricalSeasonPointsUrl": "{year}/{series_id}/points-feed.json",
