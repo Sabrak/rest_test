@@ -579,7 +579,7 @@
     "ArticlesUrl": "{year}/{series_id}/article-feed.json",
     "VideosUrl": "{year}/{series_id}/video-feed.json",
     "GalleriesUrl": "https://s3.amazonaws.com/nascar-www/data/cacher/production/{year}/{series_id}/gallery-feed.json",
-    "RaceHubMediaUrl": "{BaseUrl}/data/cacher/production/2019/{series_id}/article-feed.json",
+    "RaceHubMediaUrl": "{BaseUrl}/data/cacher/production/{year}/{series_id}/article-feed.json",
     "VideoLiveConfigUrlPerSeries": {
       "1": "https://www.nascar.com/mobile-cms/config_video_live_streams.json",
       "2": "https://www.nascar.com/mobile-cms/config_video_live_streams.json",
@@ -626,7 +626,7 @@
     "ApplicationStateUrl": "https://www.nascar.com/mobile-cms/live-na.json",
     "ArPortalUrl": "https://s3.amazonaws.com/nascar-www/data/cacher/production/2018/1/ar-portal-feed.json",
     "WatchUrl": {
-      "RaceListBasicUrl": "{BaseUrl}/data/cacher/production/2019/race_list_basic_watch.json"
+      "RaceListBasicUrl": "{BaseUrl}/data/cacher/production/{year}/race_list_basic_watch.json"
     },
     "PlayoffStandingsUrlPerSeries": {
       "1": "https://www.nascar.com/json/playoff_standings_drivers/?wid=1",
