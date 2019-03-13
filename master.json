@@ -576,8 +576,8 @@
     ]
   },
   "Feeds": {
-    "ArticlesUrl": "{year}/{series_id}/article-feed.json",
-    "VideosUrl": "{year}/{series_id}/video-feed.json",
+    "ArticlesUrl": "{BaseUrl}/{year}/{series_id}/article-feed.json",
+    "VideosUrl": "{BaseUrl}/{year}/{series_id}/video-feed.json",
     "GalleriesUrl": "https://s3.amazonaws.com/nascar-www/data/cacher/production/{year}/{series_id}/gallery-feed.json",
     "RaceHubMediaUrl": "{BaseUrl}/data/cacher/production/{year}/{series_id}/article-feed.json",
     "VideoLiveConfigUrlPerSeries": {
