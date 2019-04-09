@@ -144,7 +144,7 @@
     ],
     "Description": {
       "Title": "Renews automatically and will be charged for the upcoming period up to 24 hours before the start of the new period. Cancel anytime.",
-      "body": "By placing this order, you agree to NASCAR's Terms of Use and Privacy Statement. Your iTunes Account will be charged once purchase is confirmed. Subscription automatically renews unless auto-renew is turned off at least 24-hours before the end of the current period. You can manage your subscription and turn off auto-renew from your iTunes Account settings."
+      "Body": "By placing this order, you agree to NASCAR's Terms of Use and Privacy Statement. Your iTunes Account will be charged once purchase is confirmed. Subscription automatically renews unless auto-renew is turned off at least 24-hours before the end of the current period. You can manage your subscription and turn off auto-renew from your iTunes Account settings."
     }
   },
   "InAppPurchases-Android": {
@@ -159,13 +159,6 @@
         "Description": "Season pass for Premium Features"
       }
     ],
-    "Monthly": {
-      "Id": "monthly19",
-      "Name": "Monthly Subscription",
-      "Sku": "nascar_nm_android_month_19",
-      "Price": "$4.99",
-      "Description": "Get month-to-month access"
-    },
     "MonthlyCodes": [
       {
         "Id": "monthly19",
@@ -229,7 +222,7 @@
     ],
     "Description": {
       "Title": "Renews automatically. Cancel anytime.",
-      "body": "By placing this order, you agree to NASCAR's Terms of Use and Privacy Statement. Your Google Payments account will be charged once purchase is confirmed. Subscription automatically renews unless auto-renew is turned off at least 24-hours before the end of the current period. You can manage your subscription and turn off auto-renew from your Google Payments account settings."
+      "Body": "By placing this order, you agree to NASCAR's Terms of Use and Privacy Statement. Your Google Payments account will be charged once purchase is confirmed. Subscription automatically renews unless auto-renew is turned off at least 24-hours before the end of the current period. You can manage your subscription and turn off auto-renew from your Google Payments account settings."
     },
     "Trial": {
       "Name": "7-Day Free trial",
