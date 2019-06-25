@@ -1,0 +1,88 @@
+{
+  "home": {
+    "series_1": {
+      "race_id": "4790",
+      "home_type": 5
+    },
+    "series_2": {
+      "race_id": "4824",
+      "home_type": 5
+    },
+    "series_3": {
+      "race_id": "4853",
+      "home_type": 5
+    }
+  },
+  "live": {
+    "now": {
+      "race_id": 4790,
+      "run_type": "3",
+      "series_id": "1"
+    },
+    "series_1": {
+      "race_id": "4791"
+    },
+    "series_2": {
+      "race_id": "4825"
+    },
+    "series_3": {
+      "race_id": "4854"
+    }
+  },
+  "Live Camera": {
+    "series_1": {
+      "header_text": "Drive In-Car Cameras Are Not Available",
+      "body_body": "Drive In-Car Cameras are available for all Monster Energy NASCAR Cup Series races."
+    },
+    "series_2": {
+      "header_text": "Drive In-Car Cameras Are Not Available",
+      "body_body": "Drive In-Car Cameras are available for all companion NASCAR Xfinity Series races."
+    },
+    "series_3": {
+      "header_text": "Drive In-Car Cameras Are Not Available",
+      "body_body": "Live In-Car Cameras are exclusive to Monster Energy NASCAR Cup and Xfinity Series races."
+    }
+  },
+  "InCar Audio": {
+    "series_1": {
+      "header_text": "Live Audio Is Not Available",
+      "body_body": "Live Race Broadcast Radio is available for all Monster Energy NASCAR Cup Series races. Live In-Car Audio is available for all Monster Energy NASCAR Cup Series races with a Premium Subscription."
+    },
+    "series_2": {
+      "header_text": "Live Audio Is Not Available",
+      "body_body": "Live Race Broadcast Radio is available for all NASCAR Xfinity Series races. Live In-Car Audio is available for select NASCAR Xfinity Series races with a Premium Subscription."
+    },
+    "series_3": {
+      "header_text": "Live Audio Is Not Available",
+      "body_body": "Live Race Broadcast Radio is available for all NASCAR Gander Outdoors Truck Series races. "
+    }
+  },
+  "Dot Racing": {
+    "series_1": {
+      "header_text": "Crew Chief Is Not Available",
+      "body_body": "Crew Chief is available for all Monster Energy NASCAR Cup Series races."
+    },
+    "series_2": {
+      "header_text": "Crew Chief Is Not Available",
+      "body_body": "Crew Chief is available for all companion NASCAR Xfinity Series races."
+    },
+    "series_3": {
+      "header_text": "Crew Chief Is Not Available",
+      "body_body": "Crew Chief is not available for NASCAR Gander Outdoors Truck Series races."
+    }
+  },
+  "In Race Highlight": {
+    "series_1": {
+      "header_text": "In-Race Highlights Are Not Available",
+      "body_body": "In-Race Highlights are offered to all users. Highlights are available Green Flag to Checkered Flag for all Monster Energy NASCAR Cup Series races."
+    },
+    "series_2": {
+      "header_text": "In-Race Highlights Are Not Available",
+      "body_body": "In-Race Highlights are offered to all users. Highlights are available Green Flag to Checkered Flag for all NASCAR Xfinity Series races."
+    },
+    "series_3": {
+      "header_text": "In-Race Highlights Are Not Available",
+      "body_body": "In-Race Highlights are offered to all users. Highlights are available Green Flag to Checkered Flag for all NASCAR Gander Outdoors Truck Series races."
+    }
+  }
+}
